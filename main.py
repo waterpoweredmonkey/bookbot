@@ -30,7 +30,7 @@ def sorted_char_list(dict):
     return unsorted_occurrances
 
 def occurrances_sort(dict):
-    return dict["count"]
+    return dict["count"] 
 
 def get_book_text(path):
     with open(path) as f:
